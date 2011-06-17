@@ -13,7 +13,7 @@ def main():
 
     number_of_rows = 10;
     if options.number_of_rows:
-        number_of_rows = options.number_of_rows
+        number_of_rows = int(options.number_of_rows)
 
     for i in xrange(number_of_rows):
         print "%d%sstr%d" % (i, chr(1), i)
