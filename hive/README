@@ -1,0 +1,4 @@
+basic_table.py
+
+format: INT, STRING
+delimiter: ^A
